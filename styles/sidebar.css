@@ -1,0 +1,51 @@
+.sidebar {
+  background-image: linear-gradient(rgb(38, 44, 54), rgb(5, 5, 5));
+  bottom: 0;
+  color: white;
+  opacity: 1;
+  padding-top: 30px;
+  position: fixed;
+  top: 0;
+  width: 70px;
+}
+
+.sidebar-bg {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  bottom: 0;
+  position: absolute;
+  opacity: 0.1;
+  top: 0;
+  width: 70px;
+}
+
+.sidebar-add-community {
+  bottom: 20px;
+  left: 15px;
+  position: absolute;
+}
+
+.sidebar-add-community img {
+  border-radius: 20px;
+  opacity: 0.4;
+}
+
+.sidebar-add-community:hover img {
+  opacity: 0.7;
+}
+
+.sidebar-link {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+}
+
+.sidebar-link img {
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+.sidebar-link:hover img {
+  opacity: 1;
+}

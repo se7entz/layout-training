@@ -1,0 +1,283 @@
+.attach-icon-container {
+  align-items: center;
+  display: flex;
+  margin-left: 30px;
+  justify-content: left;
+}
+
+.attach-icon-container:hover,
+.voice-message-icon-container:hover,
+.smile-icon-container:hover {
+  cursor: pointer;
+}
+
+.attach-photo-container {
+  position: relative;
+}
+
+.attach-photo-reactions {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.1);
+  bottom: -7px;
+  display: flex;
+  height: 25px;
+  left: 245px;
+  position: absolute;
+  width: 40px;
+}
+
+.attach-photo-reactions-smile {
+  top: -5px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+.attach-photo-reactions-text {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  margin-left: 25px;
+}
+
+.date-container {
+  align-items: center;
+  color: #8D8D8D;
+  display: flex;
+  font-size: 13px;
+  margin-bottom: 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.date-container:before {
+  background: #000;
+  content: '';
+  height: 1px;
+  left: 0;
+  opacity: 0.16;
+  position: absolute;
+  right: 0;
+}
+
+.date-container p {
+  background: white;
+  display: inline;
+  margin: 0;
+  padding: 0 20px;
+  position: relative;
+}
+
+.header-total-people {
+  color: #A4A4A4;
+  display: flex;
+  margin-right: 30px;
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+}
+
+.main-channel-favorite img {
+  height: 14px;
+}
+
+.main-channel-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.main-container {
+  border-bottom: 1px solid #d3d3d3;
+  margin-left: 330px;
+  margin-right: 200px;
+  padding-bottom: 18px;
+  position: relative;
+}
+
+.main-header {
+  display: flex;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 30px;
+}
+
+.message-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.messages-section {
+  margin-left: 355px;
+  margin-right: 230px;
+  margin-top: 20px;
+}
+
+.notifications-icon-container {
+  margin-left: 25px;
+}
+
+.people-icon {
+  align-items: center;
+  display: flex;
+  margin-right: 6px;
+}
+
+.people-icon img {
+  height: 15px;
+}
+
+.preferences-icon-container {
+  margin-left: 25px;
+}
+
+.right-section {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: right;
+}
+
+.searchbar {
+  display: flex;
+  position: relative;
+}
+
+.search-button {
+  background: url("../icons/search.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  height: 32px;
+  position: absolute;
+  right: 8px;
+  width: 32px;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.search-text {
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+  font-family: Lato;
+  height: 30px;
+  padding: 0px 10px;
+  width: 220px;
+}
+
+.search-text:focus {
+  border: 1px solid #3577EF;
+  outline: 1px solid #3577EF;
+}
+
+.search-text:hover {
+  border: 1px solid #3577EF;
+}
+
+.search-text::placeholder {
+  color: #8D8D8D;
+}
+
+.send-message {
+  align-items: center;
+  background: white;
+  border-top: 1px solid #b9b9b9;;
+  bottom: 0;
+  display: flex;
+  height: 80px;
+  left: 330px;
+  position: fixed;
+  right: 200px;
+}
+
+.send-message-container {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+}
+
+.send-message-input {
+  border: none;
+  font-family: Lato, sans-serif;
+  width: 80em;
+}
+
+.send-message-input:focus {
+  outline: none;
+}
+
+.smile-icon-container {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  margin-right: 30px;
+}
+
+.user-message {
+  margin-left: 15px;
+}
+
+.user-message a {
+  color: #3577EF;
+  text-decoration: none;
+}
+
+.user-message a:hover {
+  color: #3577EF;
+  text-decoration: underline;
+}
+
+.user-message-date {
+  color: #8D8D8D;
+  margin-left: 10px;
+}
+
+.user-message-name {
+  font-weight: 700;
+}
+
+.user-message-text {
+  font-size: 13px;
+  line-height: 20px;
+  position: relative;
+}
+
+.user-message-smile {
+  height: 16px;
+  position: absolute;
+  top: -7px;
+  right: -20px;
+  margin: auto;
+}
+
+.user-message-text img {
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.user-name-date {
+  font-size: 12px;
+  display: flex;
+}
+
+.user-photo {
+  display: flex;
+}
+
+.user-photo img {
+  border-radius: 4px;
+  height: 32px;
+}
+
+.voice-message-icon-container {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+}

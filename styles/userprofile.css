@@ -1,0 +1,111 @@
+.user-online {
+  background-color: #70CC16;
+  border-radius: 50%;
+  display: flex;
+  height: 6px;
+  width: 6px;
+}
+
+.pai-block {
+  margin-bottom: 12px;
+}
+
+.pai-block-info {
+  font-weight: 400;
+}
+
+.pai-block-name {
+  color: rgb(90, 90, 90);
+  font-size: 12px;
+}
+
+.profile-buttons-arrow {
+  background-color: #3577EF;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 8px;
+  transition: opacity 0.15s;
+}
+
+.profile-buttons-arrow img {
+  display: flex;
+  height: 5px;
+}
+
+.profile-buttons-message {
+  background-color: #3577EF;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-right: 4px;
+  padding: 5px 40px;
+  transition: opacity 0.15s;
+}
+
+.profile-buttons-arrow:hover, 
+.profile-buttons-message:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.profile-buttons-arrow:active, 
+.profile-buttons-message:active {
+  background-color: rgb(17, 67, 158);
+  opacity: 1;
+}
+
+.profile-buttons {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.profile-link {
+  align-items: center;
+  background-color: #E8E8EB;
+  border-radius: 50%;
+  display: flex;
+  height: 22px;
+  justify-content: center;
+  margin-right: 8px;
+  width: 22px;
+}
+
+.profile-link img {
+  height: 12px;
+}
+
+.profile-links {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  margin: 10px 20px;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  margin-right: 8px;
+}
+
+.user-name-container {
+  align-items: center;
+  display: flex;
+}
+
+.user-pos {
+  color: rgb(90, 90, 90);
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.user-profile {
+  background: linear-gradient(#d4d8dc, #cfd2d6);
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 200px;
+}
